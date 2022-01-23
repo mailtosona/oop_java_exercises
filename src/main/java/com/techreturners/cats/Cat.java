@@ -1,5 +1,6 @@
 package com.techreturners.cats;
 
+//Interface
 interface Cat {
    // public void Eat();
     //public void Sleep();

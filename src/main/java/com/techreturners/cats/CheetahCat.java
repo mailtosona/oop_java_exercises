@@ -4,6 +4,7 @@ public class CheetahCat extends ParentCat implements Cat{
     public final String WILD = "wild";
     public final int HEIGHT = 1100;
     public boolean isAsleep() {
+        //super
         return super.isAsleep();
     }
     public void goToSleep() {

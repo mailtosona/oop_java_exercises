@@ -1,6 +1,6 @@
 package com.techreturners.cats;
-
-public class ParentCat {
+//abstract class
+public abstract class ParentCat {
     private boolean isAsleep = false;
     public boolean isAsleep() {
         return isAsleep;
