@@ -1,28 +1,14 @@
 package com.techreturners.cats;
 
-public class CheetahCat extends ParentCat implements Cat{
-    public final String WILD = "wild";
-    public final int HEIGHT = 1100;
-    public boolean isAsleep() {
-        //super
-        return super.isAsleep();
-    }
-    public void goToSleep() {
-        setAsleep(true);
-    }
-    public void wakeUp() {
-        setAsleep(false);
-    }
-    public String getSetting() {
-        return WILD;
-    }
-    public int getAverageHeight() {
-        return HEIGHT;
+public class CheetahCat extends ParentCat implements Cat {
+    public CheetahCat() {
+        super("wild");
+        super.HEIGHT = 1100;
     }
     public String eat() {
         return "Zzzzzzz";
     }
-    public String randomlyeat() {
+    public String randomlyEat() {
         return "It will do I suppose";
     }
 }
