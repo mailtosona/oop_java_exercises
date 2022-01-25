@@ -6,6 +6,9 @@ public abstract class ParentCat {
     protected int HEIGHT;
     public ParentCat(String setting) {this.SETTING = setting;}
     public ParentCat(int height) {this.HEIGHT = height;}
+
+  //  public ParentCat(String setting, int height) {this.SETTING = setting; this.HEIGHT = height;}
+
     public boolean isAsleep() {
         return isAsleep;
     }
